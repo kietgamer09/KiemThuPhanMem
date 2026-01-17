@@ -25,7 +25,7 @@ public class StudentAnalyzerTest {
     void testCountExcellentStudents_AllInvalid() {
         List<Double> scores = Arrays.asList(-0.1, 10.1, null);
         assertEquals(0, analyzer.countExcellentStudents(scores));
-
+    }
 
     @Test
     void testCountExcellentStudents_BoundaryValues() {
