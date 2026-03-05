@@ -1,0 +1,4 @@
+node_modules/
+cypress/videos/**/*.mp4
+!cypress/videos/cart_spec.cy.js.mp4
+!cypress/videos/login_spec.cy.js.mp4
